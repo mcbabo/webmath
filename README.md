@@ -1,6 +1,6 @@
-# Aesthetic ASCII
+# WEBMATH
 
-ONLINE MATH CALCULATOR
+Online Math Calculator
 
 ## Instructions
 
