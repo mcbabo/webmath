@@ -16,7 +16,7 @@ pip install webmath
 # import webmath
 from web_math import webmath
 # initialize drive object (to generate visuals)
-simpcalc.Calculate().calc.calculate("3+3")
+webmath.Calculate().calculate("3+3")
 ```
 
 3. Ride the space skyway home to 80s Miami
