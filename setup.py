@@ -1,5 +1,7 @@
 from setuptools import setup, find_packages
 
+requirements = ["aiohttp >= 3.6.0", "urllib3"]
+
 # See note below for more information about classifiers
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -11,7 +13,7 @@ classifiers = [
 
 setup(
     name="webmath",
-    version="1.0.6",
+    version="1.0.13",
     description="For online math api",
     long_description=open("README.md").read(),
     long_description_content_type='text/markdown',
@@ -21,8 +23,6 @@ setup(
     classifiers=classifiers,
     keywords="discord discord-calc calculator easy-calc simple-calculator discord.py pycord python math",  # used when people are searching for a module, keywords separated with a space
     packages=find_packages(),
-    install_requires=[
-        "aiohttp", "urllib3"
-    ],  # a list of other Python modules which this module depends on.  For example RPi.GPIO
+    install_requires=requirements,  # a list of other Python modules which this module depends on.  For example RPi.GPIO
     include_package_data=True
 )
