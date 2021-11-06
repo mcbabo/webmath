@@ -1,7 +1,11 @@
 from setuptools import setup, find_packages
 
-requirements = ["aiohttp >= 3.6.0", "urllib3"]
+# requirements = ["aiohttp >= 3.6.0", "urllib3"]
+requirements = []
 
+with open('requirements.txt') as f:
+  requirements = f.read().splitlines()
+  
 # See note below for more information about classifiers
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -12,8 +16,8 @@ classifiers = [
 ]
 
 setup(
-    name="webmath",
-    version="1.0.13",
+    name="web_math",
+    version="1.0.14",
     description="For online math api",
     long_description=open("README.md").read(),
     long_description_content_type='text/markdown',
