@@ -12,7 +12,7 @@ Shoutout to [BobDotCom#4428](https://github.com/BobDotCom "Bob's Github") for hi
 pip install web-math
 ```
 
-### Run Programm: ###
+### Run Program: ###
 
 ```py
 # import webmath and asyncio
