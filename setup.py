@@ -1,5 +1,10 @@
 from setuptools import setup, find_packages
 
+requirements = []
+
+with open("requirements.txt", "r") as f:
+    requirements = f.read().splitlines()
+
 # See note below for more information about classifiers
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -21,8 +26,6 @@ setup(
     classifiers=classifiers,
     keywords="discord discord-calc calculator easy-calc simple-calculator discord.py pycord python math",
     packages=find_packages(),
-    install_requires=[
-        "aiohttp", "urllib3"
-    ],
+    install_requires=requirements,
     include_package_data=True
 )
