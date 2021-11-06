@@ -25,7 +25,7 @@ TASK = str
 PRECISION = int
 ```
 
-### Run Programm: ###
+### Run Program: ###
 
 ```py
 # import webmath and asyncio
