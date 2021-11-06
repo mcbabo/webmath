@@ -8,13 +8,13 @@ https://github.com/BobDotCom
 
 ## Instructions ##
 
-1. Install:
+### Install: ###
 
 ```py
 pip install web-math
 ```
 
-2. Run Programm:
+### Run Programm: ###
 
 ```py
 # import webmath and asyncio
@@ -30,10 +30,10 @@ async def bread():
 asyncio.run(bread())
 ```
 
-## OUTPUT ##
+### OUTPUT ###
 ```py
 8.45509229818897
 ```
 
 
-3. Ride the space skyway home to 80s Miami
+## 3. Ride the space skyway home to 80s Miami ##
