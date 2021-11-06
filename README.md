@@ -10,13 +10,13 @@ https://github.com/BobDotCom
 
 1. Install:
 
-```
+```py
 pip install web-math
 ```
 
 2. Run Programm:
 
-```python
+```py
 # import webmath and asyncio
 import asyncio
 from web_math import webmath
