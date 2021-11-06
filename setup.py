@@ -16,7 +16,7 @@ classifiers = [
 
 setup(
     name="web_math",
-    version="1.1.3",
+    version="1.2.0",
     description="Online Math Api Wrapper",
     long_description=open("README.md").read(),
     long_description_content_type='text/markdown',
@@ -29,3 +29,4 @@ setup(
     install_requires=requirements,
     include_package_data=True
 )
+print("Thanks for downloading.... More information see here: https://github.com/mcbabo/webmath")
