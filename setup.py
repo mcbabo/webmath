@@ -17,14 +17,14 @@ classifiers = [
 setup(
     name="web_math",
     version="1.1.3",
-    description="For online math api",
+    description="Online Math Api Wrapper",
     long_description=open("README.md").read(),
     long_description_content_type='text/markdown',
     url="https://github.com/mcbabo/webmath",
     author="Moritz Joksch",
     license="MIT",
     classifiers=classifiers,
-    keywords="discord discord-calc calculator easy-calc simple-calculator discord.py pycord python math",
+    keywords="discord discord-calc calculator easy-calc simple-calculator discord.py pycord python math wrapper",
     packages=find_packages(),
     install_requires=requirements,
     include_package_data=True
