@@ -2,9 +2,7 @@
 
 Online Math Calculator
 
-Shoutout to BobDotCom#4428 for his help
-
-https://github.com/BobDotCom
+Shoutout to [BobDotCom#4428](https://github.com/BobDotCom "Bob's Github") for his help
 
 ## Instructions ##
 
