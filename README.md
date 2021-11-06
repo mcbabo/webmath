@@ -2,6 +2,9 @@
 
 Online Math Calculator
 
+Shoutout to BobDotCom#4428 for his help
+https://github.com/BobDotCom
+
 ## Instructions
 
 1. Install:
