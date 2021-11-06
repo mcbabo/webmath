@@ -1,4 +1,4 @@
-# WEBMATH
+# WEBMATH #
 
 Online Math Calculator
 
@@ -6,7 +6,7 @@ Shoutout to BobDotCom#4428 for his help
 
 https://github.com/BobDotCom
 
-## Instructions
+## Instructions ##
 
 1. Install:
 
@@ -30,7 +30,7 @@ async def bread():
 asyncio.run(bread())
 ```
 
-### OUTPUT
+### OUTPUT ###
 ```py
 8.45509229818897
 ```
