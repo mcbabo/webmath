@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 # requirements = ["aiohttp >= 3.6.0", "urllib3"]
 requirements = []
 
-with open('requirements.txt') as f:
+with open("requirements.txt", "r") as f:
   requirements = f.read().splitlines()
   
 # See note below for more information about classifiers
