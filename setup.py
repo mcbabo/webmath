@@ -16,7 +16,7 @@ classifiers = [
 
 setup(
     name="web_math",
-    version="1.1.1",
+    version="1.1.3",
     description="For online math api",
     long_description=open("README.md").read(),
     long_description_content_type='text/markdown',
