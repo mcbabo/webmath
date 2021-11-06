@@ -11,7 +11,7 @@ https://github.com/BobDotCom
 1. Install:
 
 ```
-pip install webmath
+pip install web-math
 ```
 
 2. Run Programm:
